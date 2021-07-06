@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-strided-special-dinv",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Compute the multiplicative inverse for each element in a double-precision floating-point strided array.",
   "license": "Apache-2.0",
   "author": {
