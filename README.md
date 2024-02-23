@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-dinv@deno/mod.js';
+import dinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-dinv@v0.2.1-deno/mod.js';
 ```
 
 #### dinv( N, x, strideX, y, strideY )
@@ -152,7 +152,7 @@ dinv.ndarray( 3, x, 2, 1, y, -1, y.length-1 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import dinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-dinv@deno/mod.js';
+import dinv from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-dinv@v0.2.1-deno/mod.js';
 
 var x = new Float64Array( 10 );
 var y = new Float64Array( 10 );
